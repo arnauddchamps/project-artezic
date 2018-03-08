@@ -33,3 +33,8 @@ img{
 li{
     margin: 5px;
 }
+
+
+.carousel-item img {
+    max-height: 200px;
+}
