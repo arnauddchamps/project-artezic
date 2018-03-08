@@ -1,3 +1,11 @@
+<<<<<<< HEAD
 img {
     width:10vw;
+=======
+.navbar{
+        background-image:linear-gradient(white,#F3A61F);
+}
+.nav-link{
+    text-align: right;
+>>>>>>> 9ec7a14964acdf5dd3787bdb542c01be06dc1599
 }
