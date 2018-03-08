@@ -1,10 +1,22 @@
-img {
+
+img{
     width:10vw;
 }
     
 .navbar{
         background-image:linear-gradient(white,#F3A61F);
 }
+
 .nav-link{
     text-align: right;
+}
+.navbar-nav{
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+}
+@media screen and (max-width: 920px){
+    .navbar-nav{
+        flex-direction: column;
+    }
 }
