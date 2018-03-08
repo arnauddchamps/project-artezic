@@ -20,3 +20,8 @@ img{
         flex-direction: column;
     }
 }
+
+
+.carousel-item img {
+    max-height: 200px;
+}
