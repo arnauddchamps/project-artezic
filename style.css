@@ -12,11 +12,24 @@ img{
 }
 .navbar-nav{
     flex-wrap: wrap;
-    justify-content: space-around;
-    flex-direction: row;
+    flex-direction: row;  
+
 }
-@media screen and (max-width: 920px){
-    .navbar-nav{
-        flex-direction: column;
+.button2{
+    display: none;
+}
+@media screen and (max-width: 540px){
+    
+    .button1{
+        display: none;
     }
+    .button2{
+        display: block;
+    }
+    li{
+        display: none;
+    }
+}
+li{
+    margin: 5px;
 }
