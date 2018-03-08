@@ -1,4 +1,9 @@
-.bg-light{
+
+img{
+    width:10vw;
+}
+    
+.navbar{
         background-image:linear-gradient(white,#F3A61F);
 }
 
