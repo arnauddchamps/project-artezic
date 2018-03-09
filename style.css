@@ -13,11 +13,12 @@ img{
 .navbar-nav{
     flex-wrap: wrap;
     flex-direction: row;
-
 }
+
 .button2{
     display: none;
 }
+
 @media screen and (max-width: 540px){
 
     .button1{
