@@ -1,0 +1,52 @@
+
+img{
+    width:10vw;
+}
+
+.navbar{
+        background-image:linear-gradient(white,#F3A61F);
+}
+
+.nav-link{
+    text-align: right;
+}
+.navbar-nav{
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+.button2{
+    display: none;
+}
+@media screen and (max-width: 540px){
+
+    .button1{
+        display: none;
+    }
+    .button2{
+        display: block;
+    }
+    li{
+        display: none;
+    }
+}
+
+li{
+    margin: 5px;
+}
+
+
+.carousel-item img {
+    max-height: 200px;
+}
+.image{
+    display: flex;
+    list-style: none;
+    overflow: hidden;
+    flex-wrap: wrap;
+    margin-left: 300px;
+}
+
+footer ul li {
+  list-style: none;
+}
