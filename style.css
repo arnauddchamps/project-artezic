@@ -1,4 +1,6 @@
-
+.ArteZic{
+    text-align: center;
+}
 img{
     width:10vw;
 }
@@ -49,4 +51,8 @@ li{
 
 footer ul li {
   list-style: none;
+}
+.zoulou{
+    display: flex;
+    flex-wrap: nowrap;
 }
