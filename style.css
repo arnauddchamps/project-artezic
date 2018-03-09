@@ -50,3 +50,24 @@ li{
 footer ul li {
   list-style: none;
 }
+
+
+/* NAV PERSON */
+
+.long-width-table {
+	height: 130px;
+	width: 90%;
+  /* important part */
+  white-space: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+  padding: 0;
+}
+
+.orb {
+  height: 120px;
+  width: 120px;
+  border: 1px solid #444444;
+  display: inline-flex;
+}
