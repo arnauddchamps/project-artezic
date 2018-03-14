@@ -127,3 +127,25 @@ nav, h2{
   font-size: 20px;
 }
 /* END FOOTER */
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0%;
+    padding-bottom: 50px;
+}
+.navbar-light{
+    color: blueviolet;
+}
+.card{
+    background-color: #ffbc49;
+}
+.nav-link{
+    padding: 0%;
+}
+.anahita{
+    text-align: center;
+}
+button{
+    text-align: center;
+}
