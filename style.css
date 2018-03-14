@@ -112,40 +112,9 @@ nav, h2{
 
 /* FOOTER */
 
-.img-footer {
-  width: 100px;
-  height: 100px;
-  border-radius: 10px;
-  margin: 30px;
-}
 
-.three-areas-footer li {
-  list-style-type: none;
-}
 
 .area_footer {
   font-size: 20px;
 }
 /* END FOOTER */
-.flex{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 0%;
-    padding-bottom: 50px;
-}
-.navbar-light{
-    color: blueviolet;
-}
-.card{
-    background-color: #ffbc49;
-}
-.nav-link{
-    padding: 0%;
-}
-.anahita{
-    text-align: center;
-}
-button{
-    text-align: center;
-}
