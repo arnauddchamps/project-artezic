@@ -90,7 +90,7 @@ nav, h2{
    background-color: none;
 }
 
-.thefirstfour_playlists_area_playlists_prefered{
+.thefirstfour_playlists_area_playlists_prefered, .thesecondfour_playlists_area_playlists_prefered{
    background-color: none;
    min-height: 260px;
 }
