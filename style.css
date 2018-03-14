@@ -1,24 +1,48 @@
-/*********** 8 playlists prefered *************/
-
-.title_area_playlists_prefered{
-   background-color: blue;
+.jazz{
+   background-image: url("images/jazz.gif");
 }
 
-.eight_playlists_area_playlists_prefered{
-   background-color: yellow;
+.movies{
+   background-image: url("images/movies.gif");
 }
 
-.zone1{
-   background-color: red;
+.gaming{
+   background-image: url("images/gaming.gif");
 }
 
-.titre2 {
-      background-color: green;
+.chill{
+   background-image: url("images/chill.gif");
 }
 
-.area_playlists_prefered {
-      background-color: yellow;
+.blues{
+   background-image: url("images/blues.gif");
 }
+
+.classic{
+   background-image: url("images/classics.gif");
+}
+
+.rock{
+   background-image: url("images/rock.gif");
+}
+
+.japan{
+   background-image: url("images/japan.gif");
+}
+
+/* POLICIES */
+
+/* POLICE NAVBAR */
+@font-face{font-family:'AlwynRegular'; src:url('AlwynRegular.ttf');}
+
+nav, h2{
+   font-family: 'AlwynRegular';
+   color: #FFA500;
+}
+
+
+
+
 /* NAVBAR */
 .navbar {
   border-left: 1px solid #FFA500;
@@ -40,7 +64,7 @@
 
 .navbar-light .navbar-brand {
   color: #FFA500;
-  font-size: 1em;
+  font-size: 1.4em;
   font-weight: bold;
 }
 
@@ -48,18 +72,49 @@
   color: #FFA500;
 }
 
+.navbar-light .navbar-nav .nav-link {
+  font-size: 1.2em;
+}
+
 .navbar-light .navbar-nav .nav-link:hover {
-  font-weight: bold;
+  border-bottom: 1px solid #FFA500 ;
+  font-size: 1.2em;
   color: #FFA500;
+  padding-bottom: 0px;
 }
 /* END NAVBAR */
 
+/* VOS PLAYLISTS PREFEREES - 8 playlists prefered */
+
+.title_area_playlists_prefered{
+   background-color: none;
+}
+
+.thefirstfour_playlists_area_playlists_prefered{
+   background-color: none;
+   min-height: 260px;
+}
+
+.zone1{
+   background-color: red;
+}
+
+.titre2 {
+      border: 1px solid #FFA500;
+      border-radius: 20px;
+      font-family:
+}
+
+.area_playlists_prefered {
+      background-color: none;
+}
+/* END VOS PLAYLISTS PREFEREES - 8 playlists prefered */
 
 /* FOOTER */
 
 .img-footer {
-  width: 70px;
-  height: 70px;
+  width: 100px;
+  height: 100px;
   border-radius: 10px;
   margin: 30px;
 }
