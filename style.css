@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /*********** 8 playlists prefered *************/
 
 .title_area_playlists_prefered{
@@ -20,14 +19,12 @@
 .area_playlists_prefered {
       background-color: yellow;
 }
-=======
 /* NAVBAR */
 .navbar {
   border-left: 1px solid #FFA500;
   border-bottom: 1px solid #FFA500;
   border-right: 1px solid #FFA500;
   border-radius: 20px;
-  font-family: 'Courgette', cursive;
 }
 
 .logo {
@@ -56,4 +53,22 @@
   color: #FFA500;
 }
 /* END NAVBAR */
->>>>>>> artshow-develop
+
+
+/* FOOTER */
+
+.img-footer {
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  margin: 30px;
+}
+
+.three-areas-footer li {
+  list-style-type: none;
+}
+
+.area_footer {
+  font-size: 20px;
+}
+/* END FOOTER */
