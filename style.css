@@ -1,76 +1,35 @@
-.ArteZic{
-    text-align: center;
-}
-img{
-    width:10vw;
-}
-
-.navbar{
-        background-image:linear-gradient(white,#F3A61F);
+/* NAVBAR */
+.navbar {
+  border-left: 1px solid #FFA500;
+  border-bottom: 1px solid #FFA500;
+  border-right: 1px solid #FFA500;
+  border-radius: 20px;
+  font-family: 'Courgette', cursive;
 }
 
-.nav-link{
-    text-align: right;
-}
-.navbar-nav{
-    flex-wrap: wrap;
-    flex-direction: row;
+.logo {
+  height: 70px;
+  width: 70px;
 }
 
-.button2{
-    display: none;
+.navbar-light
+.navbar-nav
+.nav-link {
+  color: #FFA500;
 }
 
-@media screen and (max-width: 540px){
-
-    .button1{
-        display: none;
-    }
-    .button2{
-        display: block;
-    }
-    li{
-        display: none;
-    }
+.navbar-light .navbar-brand {
+  color: #FFA500;
+  font-size: 1em;
+  font-weight: bold;
 }
 
-li{
-    margin: 5px;
+.navbar-light .navbar-brand:hover {
+  color: #FFA500;
 }
 
-
-.carousel-item img {
-    max-height: 200px;
+.navbar-light .navbar-nav .nav-link:hover {
+  font-weight: bold;
+  color: #FFA500;
 }
-.image{
-    display: flex;
-    list-style: none;
-    overflow: hidden;
-    flex-wrap: wrap;
-    margin-left: 300px;
-}
-
-footer ul li {
-  list-style: none;
-}
-
-
-/* NAV PERSON */
-
-.long-width-table {
-	height: 130px;
-	width: 90%;
-  /* important part */
-  white-space: nowrap;
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-  -ms-overflow-style: -ms-autohiding-scrollbar;
-  padding: 0;
-}
-
-.orb {
-  height: 120px;
-  width: 120px;
-  border: 1px solid #444444;
-  display: inline-flex;
-}
+/* END NAVBAR */
