@@ -1,35 +1,3 @@
-.jazz{
-   background-image: url("images/jazz.gif");
-}
-
-.movies{
-   background-image: url("images/movies.gif");
-}
-
-.gaming{
-   background-image: url("images/gaming.gif");
-}
-
-.chill{
-   background-image: url("images/chill.gif");
-}
-
-.blues{
-   background-image: url("images/blues.gif");
-}
-
-.classic{
-   background-image: url("images/classics.gif");
-}
-
-.rock{
-   background-image: url("images/rock.gif");
-}
-
-.japan{
-   background-image: url("images/japan.gif");
-}
-
 /* POLICIES */
 
 /* POLICE NAVBAR */
@@ -37,7 +5,7 @@
 
 nav, h2{
    font-family: 'AlwynRegular';
-   color: #FFA500;
+   color: #F9A02E;
 }
 
 
@@ -45,9 +13,9 @@ nav, h2{
 
 /* NAVBAR */
 .navbar {
-  border-left: 1px solid #FFA500;
-  border-bottom: 1px solid #FFA500;
-  border-right: 1px solid #FFA500;
+  border-left: 1px solid #F9A02E;
+  border-bottom: 1px solid #F9A02E;
+  border-right: 1px solid #F9A02E;
   border-radius: 20px;
 }
 
@@ -59,17 +27,17 @@ nav, h2{
 .navbar-light
 .navbar-nav
 .nav-link {
-  color: #FFA500;
+  color: #F9A02E;
 }
 
 .navbar-light .navbar-brand {
-  color: #FFA500;
+  color: #F9A02E;
   font-size: 1.4em;
   font-weight: bold;
 }
 
 .navbar-light .navbar-brand:hover {
-  color: #FFA500;
+  color: #F9A02E;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -77,9 +45,9 @@ nav, h2{
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-  border-bottom: 1px solid #FFA500 ;
+  border-bottom: 1px solid #F9A02E;
   font-size: 1.2em;
-  color: #FFA500;
+  color: #F9A02E;
   padding-bottom: 0px;
 }
 /* END NAVBAR */
@@ -90,7 +58,7 @@ nav, h2{
    background-color: none;
 }
 
-.thefirstfour_playlists_area_playlists_prefered{
+.thefirstfour_playlists_area_playlists_prefered, .thesecondfour_playlists_area_playlists_prefered{
    background-color: none;
    min-height: 260px;
 }
@@ -100,7 +68,7 @@ nav, h2{
 }
 
 .titre2 {
-      border: 1px solid #FFA500;
+      border: 1px solid #F9A02E;
       border-radius: 20px;
       font-family:
 }
@@ -110,39 +78,60 @@ nav, h2{
 }
 /* END VOS PLAYLISTS PREFEREES - 8 playlists prefered */
 
-/* FOOTER */
+/* PLAYLIST PAR WILDERS */
 
-.img-footer {
-  width: 100px;
-  height: 100px;
-  border-radius: 10px;
-  margin: 30px;
+.btn-link {
+  width: 100%;
+  padding: 10px;
+  color: #F9A02E;
+  font-weight: bold;
+  font-size: 16px;
 }
 
+.btn-link:hover {
+  font-size: 20px;
+  color: #F9A02E;
+}
+
+.links-img {
+  padding: 0;
+  max-width: 200px;
+  margin: 20px;
+}
+<<<<<<< HEAD
+.card{
+    background-color: rgba(255, 222, 165, 0.3)
+=======
+
+.card-header {
+  height: 52px;
+  padding: 0;
+  background-color: rgba(251,162,88, 0.2);
+}
+
+.card-body {
+  background-color: rgba(255,222,165, 0.3);
+>>>>>>> upstream/develop
+}
+
+.img-card {
+  height: 200px;
+  width: 200px;
+}
+
+/* FOOTER */
+
+
+.links-site-wild li,
 .three-areas-footer li {
   list-style-type: none;
 }
 
+ .links-footer a {
+   color: #F9A02E;
+ }
+
 .area_footer {
-  font-size: 20px;
+  font-size: 16px;
 }
 /* END FOOTER */
-.flex{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 0%;
-    padding-bottom: 50px;
-}
-.card{
-    background-color: rgba(255, 222, 165, 0.3)
-}
-.nav-link{
-    padding: 0%;
-}
-.anahita{
-    text-align: center;
-}
-button{
-    text-align: center;
-}
