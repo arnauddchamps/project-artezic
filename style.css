@@ -52,6 +52,17 @@ nav, h2{
 }
 /* END NAVBAR */
 
+/* BUTTON MY PLAYLIST */
+.btn-block{
+  background-color: rgb(255, 214, 161);
+  color: #F9A02E;
+}
+
+.btn-block:hover {
+  font-size: 20px;
+  color: #F9A02E;
+}
+
 /* VOS PLAYLISTS PREFEREES - 8 playlists prefered */
 
 .title_area_playlists_prefered{
@@ -61,10 +72,6 @@ nav, h2{
 .thefirstfour_playlists_area_playlists_prefered, .thesecondfour_playlists_area_playlists_prefered{
    background-color: none;
    min-height: 260px;
-}
-
-.zone1{
-   background-color: red;
 }
 
 .titres {
@@ -98,10 +105,6 @@ nav, h2{
   max-width: 200px;
   margin: 20px;
 }
-<<<<<<< HEAD
-.card{
-    background-color: rgba(255, 222, 165, 0.3)
-=======
 
 .card-header {
   height: 52px;
@@ -111,7 +114,6 @@ nav, h2{
 
 .card-body {
   background-color: rgba(255,222,165, 0.3);
->>>>>>> upstream/develop
 }
 
 .img-card {
