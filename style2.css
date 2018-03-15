@@ -1,3 +1,11 @@
 .identifiant{
     background-color:blue;
+round-color: blue;
 }
+
+.btn {
+    color: white;
+    background-color: orange;
+    font-size: 1.5em;
+}
+
