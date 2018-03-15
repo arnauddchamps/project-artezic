@@ -112,6 +112,7 @@ nav, h2{
 .img-card {
   height: 200px;
   width: 200px;
+  border-radius: 5px;
 }
 
 /* FOOTER */
