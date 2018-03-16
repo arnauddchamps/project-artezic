@@ -2,12 +2,22 @@
 
 /* POLICE NAVBAR */
 @font-face{font-family:'AlwynRegular'; src:url('AlwynRegular.ttf');}
+@font-face{font-family:'SourceSansProRegular'; src:url('https://fonts.google.com/specimen/Source+Sans+Pro');}
 
-nav, h2{
+nav, h2, h3{
    font-family: 'AlwynRegular';
    color: #F9A02E;
 }
 
+h3 {
+  text-align: center;
+  padding-top: 8px;
+  font-size: 1.5em;
+}
+
+body {
+  font-family: 'SourceSansProRegular';
+}
 
 
 
@@ -54,7 +64,7 @@ nav, h2{
 
 /* BUTTON MY PLAYLIST */
 .btn-block{
-  background-color: rgb(255, 214, 161);
+  background-color: rgb(241, 241, 241);
   color: #F9A02E;
 }
 
@@ -161,3 +171,24 @@ nav, h2{
   font-size: 16px;
 }
 /* END FOOTER */
+
+
+@media (max-width: 540px) {
+  h3{
+    font-size: 0.9em;
+    padding-top: 16px;
+  }
+
+  .tutop {
+    font-size: 0.7em;
+    font-family:'AlwynRegular';
+  }
+
+  .btn-faire-playlist {
+    font-size:0.8em;
+  }
+
+}
+
+
+
