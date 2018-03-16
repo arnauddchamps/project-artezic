@@ -2,12 +2,22 @@
 
 /* POLICE NAVBAR */
 @font-face{font-family:'AlwynRegular'; src:url('AlwynRegular.ttf');}
+@font-face{font-family:'SourceSansProRegular'; src:url('https://fonts.google.com/specimen/Source+Sans+Pro');}
 
-nav, h2{
+nav, h2, h3{
    font-family: 'AlwynRegular';
    color: #F9A02E;
 }
 
+h3 {
+  text-align: center;
+  padding-top: 8px;
+  font-size: 1.5em;
+}
+
+body {
+  font-family: 'SourceSansProRegular';
+}
 
 
 
@@ -52,6 +62,17 @@ nav, h2{
 }
 /* END NAVBAR */
 
+/* BUTTON MY PLAYLIST */
+.btn-block{
+  background-color: rgb(241, 241, 241);
+  color: #F9A02E;
+}
+
+.btn-block:hover {
+  font-size: 20px;
+  color: #F9A02E;
+}
+
 /* VOS PLAYLISTS PREFEREES - 8 playlists prefered */
 
 .title_area_playlists_prefered{
@@ -63,10 +84,6 @@ nav, h2{
    min-height: 260px;
 }
 
-.zone1{
-   background-color: red;
-}
-
 .titres {
       border: 1px solid #F9A02E;
       border-radius: 20px;
@@ -75,7 +92,23 @@ nav, h2{
 
 .area_playlists_prefered {
       background-color: none;
+      color: #F9A02E;
 }
+
+.card {
+  border: none;
+}
+
+.card-img-top {
+  opacity: 0.7;
+}
+
+.card-img-top:hover {
+  opacity: 1;
+}
+
+
+
 /* END VOS PLAYLISTS PREFEREES - 8 playlists prefered */
 
 /* PLAYLIST PAR WILDERS */
@@ -86,6 +119,14 @@ nav, h2{
   color: #F9A02E;
   font-weight: bold;
   font-size: 16px;
+}
+
+.btn-faire-playlist {
+  padding: 10px;
+  color: #F9A02E;
+  font-weight: bold;
+  font-size: 20px;
+  border: 1px solid #F9A02E;
 }
 
 .btn-link:hover {
@@ -106,7 +147,7 @@ nav, h2{
 }
 
 .card-body {
-  background-color: rgba(255,222,165, 0.3);
+  background-color:
 }
 
 .img-card {
@@ -114,7 +155,6 @@ nav, h2{
   width: 200px;
   border-radius: 5px;
 }
-
 /* FOOTER */
 
 
@@ -131,3 +171,24 @@ nav, h2{
   font-size: 16px;
 }
 /* END FOOTER */
+
+
+@media (max-width: 540px) {
+  h3{
+    font-size: 0.9em;
+    padding-top: 16px;
+  }
+
+  .tutop {
+    font-size: 0.7em;
+    font-family:'AlwynRegular';
+  }
+
+  .btn-faire-playlist {
+    font-size:0.8em;
+  }
+
+}
+
+
+
