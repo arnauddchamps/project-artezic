@@ -82,7 +82,23 @@ nav, h2{
 
 .area_playlists_prefered {
       background-color: none;
+      color: #F9A02E;
 }
+
+.card {
+  border: none;
+}
+
+.card-img-top {
+  opacity: 0.7;
+}
+
+.card-img-top:hover {
+  opacity: 1;
+}
+
+
+
 /* END VOS PLAYLISTS PREFEREES - 8 playlists prefered */
 
 /* PLAYLIST PAR WILDERS */
@@ -93,6 +109,14 @@ nav, h2{
   color: #F9A02E;
   font-weight: bold;
   font-size: 16px;
+}
+
+.btn-faire-playlist {
+  padding: 10px;
+  color: #F9A02E;
+  font-weight: bold;
+  font-size: 20px;
+  border: 1px solid #F9A02E;
 }
 
 .btn-link:hover {
@@ -113,7 +137,7 @@ nav, h2{
 }
 
 .card-body {
-  background-color: rgba(255,222,165, 0.3);
+  background-color:
 }
 
 .img-card {
@@ -121,7 +145,6 @@ nav, h2{
   width: 200px;
   border-radius: 5px;
 }
-
 /* FOOTER */
 
 
